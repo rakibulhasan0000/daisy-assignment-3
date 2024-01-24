@@ -6,8 +6,264 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<!-- google fonts manrope -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet"></link>
+<style>
+    .font-manrope{
+        font-family:'Manrope', sans-serif;
+    }
+</style>
 </head>
-<body>
-    
+<body class="font-manrope bg-white">
+    <header class=" lg:w-[1690px] h-[100px] items-center mx-auto">
+        <nav class="font-Manrope">
+            <div class="navbar bg-white">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#fff] rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li>
+                        <a>Pages</a>
+                        <ul class="p-2">
+                          <li><a>Page-1</a></li>
+                          <li><a>page-2</a></li>
+                        </ul>
+                      </li>
+                      <li><a>Blog</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-2xl lg:text-[36px] text-black font-[Manrope] font-bold">Hockey<span class="text-[#ff4240]">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 font-[Manrope] text-[20px] text-[#424247]">
+                    <li class="text-[#FF4240]"><a>Home</a></li>
+                    <li>
+                      <details>
+                        <summary>Pages</summary>
+                        <ul class="p-2">
+                          <li><a>Page-1</a></li>
+                          <li><a>page-2</a></li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li><a>Blog</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="sm:ml-12 lg:navbar-end ">
+                  <a class="btn bg-[#ff4240] text-[#fff] font-[Manrope] lg:text-[20px] ">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+                        <!-- start my main part -->
+    <main class="bg-white">
+                            <!-- this is banner section -->
+        <section>
+            <div>
+                <div class="carousel w-[1170] h-[550px]">
+                    <div id="slide1" class="carousel-item relative w-full bg-white ">
+                      <img src="Images/1.png" class="w-[1670px] item-center mx-auto" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img src="Images/4.png" class="w-[1670px] item-center mx-auto" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full">
+                      <img src="Images/1.png" class="w-[1670px] item-center mx-auto" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a> 
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide4" class="carousel-item relative w-full">
+                      <img src="Images/4.png" class="w-[1670px] item-center mx-auto" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a> 
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="border bg-black w-[300px] text-center mx-auto">
+                    <h3 class="text-[18px]">Meet all the heroes from the field</h3>
+                    <p class="text-[12px]">Hockey is a term used to denote a family of various types of both summer and winter team</p>
+                  </div>
+            </div>
+        </section>
+        <section class="border lg:w-[607px] h-[52px] bg-[#fff] mx-auto text-black mt-[132px]">
+            <div class="text-center">
+                <h1 class="text-[25px] lg:text-[36px] pb-[10px] font-bold">Professional Hockeys Club</h1>
+                <p class="text-[16px]">Hockey Canada is the national governing body for hockey in Canada, working with its 13 member branches and local minor hockey associations to grow the game </p>
+            </div>
+        </section>
+                    <!-- percentage openion -->
+        <section class="lg:flex mt-[120px] justify-center text-black text-center gap-10">
+            <div class="text-center">
+                <div class="radial-progress text-accent " style="--value:70;" role="progressbar">87%</div>
+                <h1 class="text-xl font-bold">Prayer Facility</h1>
+                <p class="lg:w-[200px]">
+                    Every Muslim is expected to pray five times a day 
+                </p>
+            </div>
+            <div>
+                <div class="radial-progress text-error" style="--value:70;" role="progressbar">95%</div>
+                <h1 class="text-xl font-bold">Experienced Coach</h1>
+                <p class="lg:w-[200px]">
+                    Every Muslim is expected to pray five times a day 
+                </p>
+            </div>
+            <div>
+                <div class="radial-progress text-warning" style="--value:70;" role="progressbar">90%</div>
+                <h1 class="text-xl font-bold">Senior Player</h1>
+                <p class="lg:w-[200px]">
+                    Every Muslim is expected to pray five times a day 
+                </p>
+            </div>
+            <div>
+                <div class="radial-progress text-primary" style="--value:70;" role="progressbar">80%</div>
+                <h1 class="text-xl font-bold">Training Ground</h1>
+                <p class="lg:w-[200px]">
+                    Every Muslim is expected to pray five times a day 
+                </p>
+            </div>
+        </section>
+                        <!-- program section -->
+        <section class="border lg:w-[607px] h-[52px] bg-[#fff] mx-auto text-black mt-[132px]">
+            <div class="text-center">
+                <h1 class="text-[25px] lg:text-[36px] pb-[10px] font-bold">Program Sections</h1>
+            <p class="text-[16px]">Hockey Canada is the national governing body for hockey in Canada, working with its 13 member branches and local minor hockey associations to grow the game</p>
+            </div>
+        </section>
+                            <!--picture card-->
+        <section class="text-[white] lg:mx-[500px]">
+            <div class="lg:flex mt-[100px] gap-3">
+                <div class="card lg:w-[700px] bg-white shadow-xl image-full">
+                    <figure><img class="lg:w-[700px]" src="Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body pt-20">
+                      <h2 class="card-title">Junior Program</h2>
+                      <p class="w-[300px] text-[16px] ">USA Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's</p>
+                      <div class="card-actions lg:justify-start">
+                        <button class="btn btn-accent">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card pt-3 lg:w-[700px] bg-white shadow-xl image-full">
+                    <figure><img class="lg:w-[700px]" src="Images/3.png" alt="Shoes" /></figure>
+                    <div class="card-body pt-20">
+                      <h2 class="card-title">Teenager Program</h2>
+                      <p class="lg:w-[300px] text-[16px] ">USA Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's</p>
+                      <div class="card-actions lg:justify-start">
+                        <button class="btn btn-accent">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+            <div class="mt-3 card lg:w-[900px]  bg-white shadow-xl image-full">
+                <figure><img class="lg:w-[900px]" src="Images/4.png" alt="hockey" /></figure>
+                <div class="card-body pt-20">
+                  <h2 class="card-title">Professional Program</h2>
+                  <p class="w-[700px] text-[16px] ">USA Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's.Our junior program starts with 'Hook into Hockey' and runs through to Under 16s, allowing players of all ages and skill levels to join in and form friendships</p>
+                  <div class="card-actions lg:justify-start">
+                    <button class="btn btn-accent">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section>
+            <section class="border lg:w-[607px] h-[52px] bg-[#fff] mx-auto text-black mt-[132px]">
+                <div class="text-center">
+                    <h1 class="text-[25px] lg:text-[36px] pb-[10px] font-bold">Program Sections</h1>
+                <p class="text-[16px]">Hockey Canada is the national governing body for hockey in Canada, working with its 13 member branches and local minor hockey associations to grow the game</p>
+                </div>
+            </section>
+        </section>
+                        <!-- product section -->
+        <section class="mt-[100px] text-white">
+            <div class="flex justify-center gap-3 pb-2">
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img class="pl-2" src="Images/5.png" alt="Movie"/></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">World Cup Flags Football!</h2>
+                      <p>Click the button to watch your <br> combo pack and offer.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">price-$522.00</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img class="pl-2" src="Images/6.png" alt="Movie"/></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">World Cup Flags Football</h2>
+                      <p>Click the button to watch beautiful <br> flag and take some.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">price-$20.00</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="flex justify-center gap-3 pb-2">
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img class="pl-2" src="Images/7.png" alt="Movie"/></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Cap For Hockeys</h2>
+                      <p>Click the button to watch your <br> combo pack and offer. best price.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">price-$15.00</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img class="pl-2" src="Images/8.png" alt="Movie"/></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">World Cup Flags Football</h2>
+                      <p>Click the button to watch beautiful <br> flag and take some.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">price-$42.00</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="flex justify-center gap-3 pb-2">
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img class="pl-2" src="Images/9.png" alt="Movie"/></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">World Cup Flags Football</h2>
+                      <p>Click the button to watch your <br> combo pack and offer.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">price-$30.00</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img class="pl-2" src="Images/10.png" alt="Movie"/></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">World Cup Flags Football</h2>
+                      <p>Click the button to watch beautiful <br> flag and take some.best price.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">price-$22.00</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
